@@ -2,7 +2,7 @@ import { RESTClient, RESTIniOptions } from "./rest";
 
 export type RPCIniOptions = RESTIniOptions & {
   user?: string;
-  pass: string;
+  pass?: string;
   wallet?: string;
   fullResponse?: boolean;
 };
