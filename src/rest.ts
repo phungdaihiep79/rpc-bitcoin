@@ -33,7 +33,7 @@ export class RESTClient extends RPC {
     timeout = 30000,
     ...options
   }: RESTIniOptions = {}) {
-    super({ ...options, baseUrl: `${url}:${port}`, timeout, json: true });
+    super({ baseUrl: `${url}:${port}`, timeout, json: true, ...options });
   }
 
   /**

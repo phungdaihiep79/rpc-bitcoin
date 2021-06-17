@@ -5,7 +5,7 @@ A [TypeScript](https://www.typescriptlang.org) library to make RPC and HTTP REST
 ## Installation
 
 ```bash
-npm install rpc-bitcoin
+npm install @phungdaihiep/rpc-bitcoin
 ```
 
 ## [RPC](https://bitcoin.org/en/developer-reference#remote-procedure-calls-rpcs)
